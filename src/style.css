@@ -1,0 +1,62 @@
+body {
+  background-color: white;
+  font-family: "Mukta", sans-serif; }
+
+.main-wrapper {
+  width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  border: 1px solid #ccc; }
+
+.chat {
+  padding: 20px;
+  flex: 1;
+  max-height: 300px;
+  overflow-y: auto; }
+  .chat__input {
+    margin-top: 50px;
+    padding: 5px 10px;
+    font-size: 20px;
+    width: 60%; }
+
+.message {
+  margin-top: 0;
+  margin-bottom: 10px; }
+  .message:last-child {
+    margin-bottom: 0; }
+  .message__date {
+    color: gray;
+    padding-right: 5px;
+    font-size: 12px; }
+  .message__author {
+    font-weight: bold;
+    padding-right: 5px; }
+
+.users {
+  width: 350px;
+  border-left: 1px solid #ccc; }
+  .users button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  .users__title {
+    border-bottom: 1px dotted #ccc;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 15px; }
+  .users ul {
+    list-style-type: none;
+    margin: 0 0 20px 40px;
+    padding: 0; }
+    .users ul li::before {
+      content: " ";
+      width: 8px;
+      height: 8px;
+      display: inline-block;
+      position: relative;
+      top: -2px;
+      border-radius: 50%;
+      margin-right: 9px;
+      background-color: green; }
+
+/*# sourceMappingURL=style.css.map */
