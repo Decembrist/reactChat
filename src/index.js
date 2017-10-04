@@ -1,6 +1,7 @@
 import React from 'react'
 import {render} from 'react-dom'
-import App from './components/App'
+import Chat from './components/Chat'
+import './style.css'
 
 
-render(<App />, document.getElementById('container'));
+render(<Chat />, document.getElementById('container'));

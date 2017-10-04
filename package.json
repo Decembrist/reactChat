@@ -1,7 +1,7 @@
 {
-  "name": "react_course_js_ru_08_06_17",
+  "name": "chat",
   "version": "1.0.0",
-  "description": "",
+  "description": "react chat",
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"npm run dev\" \"npm run api\"",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/romabelka/js_ru_08_06_17"
+    "url": "git+https://github.com/Decembrist/reactChat.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Andrew Pavlov",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/romabelka/js_ru_08_06_17"
+    "url": "https://github.com/Decembrist/reactChat.git"
   },
-  "homepage": "https://github.com/romabelka/js_ru_08_06_17",
+  "homepage": "https://github.com/Decembrist/reactChat.git",
   "devDependencies": {
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.4",

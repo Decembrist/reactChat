@@ -1,7 +1,6 @@
+import {combineReducers} from 'redux'
+import peopleReduce from './people'
 
+const allReduse = combineReducers({peopleReduce});
 
-const chatReduce = (state = {}, action) => {
-	return state
-}
-
-export default chatReduce
+export default allReduse;
