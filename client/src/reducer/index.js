@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux'
 import peopleReduce from './people'
 
-const allReduse = combineReducers({peopleReduce});
+const allReduce = combineReducers({peopleReduce});
 
-export default allReduse;
+export default allReduce;
